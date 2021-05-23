@@ -14,6 +14,13 @@ From: [Kubeadm HA Topology](https://kubernetes.io/docs/setup/production-environm
 
 Option 2 was selected because the redundancy is compromised when a control plane node or etcd node goes down. The downside is more infrastructure but it is a good tradeoff.
 
+## Work Done
+
+1. Created 3 node ETCD cluster
+2. Created 3 node Control Plane cluster
+3. Created 3 worker nodes
+4. Created a Network Load Balancer (NLB) to 
+
 ## Future Work
 
 ### Automation
